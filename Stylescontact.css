@@ -175,6 +175,28 @@ li {
 }
 
 /* Fin du Footer */
+/* patir animation hover */
+
+.menu.active .effet,
+.menu:hover .effet {
+    color: black;
+}
+
+.menu.active .effetTexte,
+.menu:hover .effetTexte {
+    color: #EB8F9B;
+}
+.pFooter:hover{
+    color: #EB8F9B ;
+}
+
+::placeholder { 
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    
+  }
+
+
 /* début des médias querries */
 
 @media (max-width: 950px) {
@@ -211,7 +233,7 @@ li {
     }
 
     .logo {
-        width: 68%;
+        width: 100%;
     }
 
     #div2 {
