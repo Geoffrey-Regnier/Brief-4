@@ -9,8 +9,13 @@
 
 
 strong {
-    font-family:;
+    font-family: 'candal';
 }
+
+p {
+    font-family: 'open', sans-serif;
+}
+
 
 p, li {
     font-family: 'open', sans-serif;
@@ -31,6 +36,7 @@ p, li {
 
 .effetTexte {
     font-size: 1rem;
+    
 }
 
 .TitreH2 {
